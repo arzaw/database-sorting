@@ -1,0 +1,15 @@
+<h1 style="margin-left: 4cm;">Student Search</h1>
+<form style="margin-left: 4cm;">
+    <div class="form-group">
+        <input type="text">
+        <button>Search</button>
+    </div>
+</form>
+
+<div>
+    <div *ngFor="let detail of details"  class="search">
+        <div class="item">{{detail.name}}</div>
+        <div class="item">{{detail.address}}</div>
+        <br>
+    </div>
+</div>

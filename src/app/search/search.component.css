@@ -1,0 +1,25 @@
+label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+}
+button{
+    margin-left: 1cm;
+}
+
+div.search{
+    margin-left: 4cm ;
+    margin-right: 4cm;
+    margin-top: 1cm;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+
+div.item{
+    margin-left: 1cm;
+}
