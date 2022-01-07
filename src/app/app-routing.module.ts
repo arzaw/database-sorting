@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SearchComponent } from './search/search.component';
-import { StudentDataComponent } from './student-data/student-data.component';
+import { AddInterviewComponent } from './add-interview/add-interview.component';
+import { DetailsComponent } from './details/details.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {path: "search", component: SearchComponent},
-  { path: "data", component: StudentDataComponent},
-  { path: "**", redirectTo: '/data', pathMatch: "full"}
+  { path: "home", component: HomeComponent},
+  { path: "details", component: DetailsComponent},
+  { path: "add-interview", component: AddInterviewComponent},
+  { path: "**", redirectTo: '/home', pathMatch: "full"}
 ];
 
 @NgModule({

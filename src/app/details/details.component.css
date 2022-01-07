@@ -1,0 +1,46 @@
+div.cont{
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+
+
+span{
+    display: inline-block;
+    clear: left;
+    width: 150px;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+button{
+    height: 30px;
+    width: 200px;
+}
+
+div.inc{
+    font-size: 1.2em;
+}
+
+span.cl-1{
+    width: 350px;
+}
+
+span.cl-2{
+    width: 150px;
+}
+
+span.cl-3{
+    width: 300px;
+}
+
+div.prev{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+div.prev-in{
+    margin-left: 0.5cm;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -7,8 +7,8 @@
 </form>
 
 <div>
-    <div *ngFor="let detail of details"  class="search">
-        <div class="item">{{detail.name}}</div>
+    <div *ngFor="let detail of details"  class="search" >
+        <div class="item"><a [routerLink]="['/details']" routerLinkActive="router-link-active"  style="text-decoration: none;">{{detail.name}}</a></div>
         <div class="item">{{detail.address}}</div>
         <br>
     </div>
